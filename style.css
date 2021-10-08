@@ -1,36 +1,45 @@
+
+body {
+  font-weight: 300, 600;
+}
+
 .leading-header {
-    background-color: hsl(353, 100%, 62%);
-    height: auto;
-    background-image:  url(images/bg-pattern-intro.svg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom-left-radius: 60px;    
+  background-color: hsl(353, 100%, 62%);
+  height: auto;
+  background-image:  url(images/bg-pattern-intro.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 60px;
 }
 
 .leading-header:hover {
-    transition: all ease-in-out;
-    transition-duration: 1.5s;
+  transition: all ease-in-out;
+  transition-duration: 1.5s;
 }
 
 .login-link:hover {
-    cursor: pointer;
-    text-decoration: underline #000;
+  cursor: pointer;
+  text-decoration: underline #000;
 }
 .btn {
-    border: 1px solid #fff;
-    border-radius: 20px;
-    color: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  color: #fff;
 }
 
 .btn:hover {
-    background: #fff;
-    color: hsl(353, 100%, 62%);
+  background: #fff;
+  color: hsl(353, 100%, 62%);
 }
 
 .first-section {
-    background: url('images/illustration-editor-desktop.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: auto;
+  color: hsl(207, 13%, 34%);
+}
+
+.first-section-image {
+  background: url('images/illustration-editor-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: auto;
 }
