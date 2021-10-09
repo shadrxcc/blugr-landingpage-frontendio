@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   box-sizing: border-box;
   overflow-x: hidden;
@@ -32,4 +33,50 @@ body {
 footer {
   background-image: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
   border-top-right-radius: 75px;
+=======
+
+body {
+  font-weight: 300, 600;
+}
+
+.leading-header {
+  background-color: hsl(353, 100%, 62%);
+  height: auto;
+  background-image:  url(images/bg-pattern-intro.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 60px;
+}
+
+.leading-header:hover {
+  transition: all ease-in-out;
+  transition-duration: 1.5s;
+}
+
+.login-link:hover {
+  cursor: pointer;
+  text-decoration: underline #000;
+}
+.btn {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #fff;
+  color: hsl(353, 100%, 62%);
+}
+
+.first-section {
+  color: hsl(207, 13%, 34%);
+}
+
+.first-section-image {
+  background: url('images/illustration-editor-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: auto;
+>>>>>>> f9f03ae5f2fb20c30735ba8a308c6d7f0b1d31c4
 }
