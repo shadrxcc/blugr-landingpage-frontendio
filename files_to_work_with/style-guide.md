@@ -35,7 +35,8 @@ Background gradient - body:
 - Very dark desaturated blue: hsl(237, 23%, 32%)
 
 ## Typography
-
+font-family: 'Overpass', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 ### Body Copy
 
 - Font size: 16px
