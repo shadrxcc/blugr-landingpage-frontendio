@@ -35,11 +35,17 @@ body {
 
 .first-section {
   color: hsl(207, 13%, 34%);
+  display: flex;
+}
+
+.first-section-text {
+    color: hsl(208, 49%, 24%);
 }
 
 .first-section-image {
   background: url('images/illustration-editor-desktop.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  height: auto;
+  height:fit-content;
+  justify-content: end;
 }
