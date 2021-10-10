@@ -1,7 +1,6 @@
-<<<<<<< HEAD
+
 body {
-  box-sizing: border-box;
-  overflow-x: hidden;
+  font-weight: 300, 600;
 }
 
 .phone {
@@ -33,10 +32,6 @@ body {
 footer {
   background-image: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
   border-top-right-radius: 75px;
-=======
-
-body {
-  font-weight: 300, 600;
 }
 
 .leading-header {
@@ -82,11 +77,7 @@ body {
   background: url('images/illustration-editor-desktop.svg');
   background-repeat: no-repeat;
   background-size: contain;
-<<<<<<< HEAD
   height:fit-content;
   justify-content: end;
-=======
   height: auto;
->>>>>>> f9f03ae5f2fb20c30735ba8a308c6d7f0b1d31c4
->>>>>>> 237b4d33cf749069ed6d90d2236a93d43b0b4645
 }
